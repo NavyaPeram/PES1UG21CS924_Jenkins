@@ -14,7 +14,7 @@ pipeline{
     stage('Build'){
         steps{
             build 'PES1UG21CS924-1'
-            sh 'g++ /var/jenkins_home/workspace/PES1UG21CS924-1/main/hello.cp -o output'
+            sh 'g++ /var/jenkins_home/workspace/PES1UG21CS924-1/main/hello.cpp -o output'
         }
     }
 
